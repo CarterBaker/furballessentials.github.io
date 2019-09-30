@@ -1,0 +1,393 @@
+body {
+	/*Background*/
+  	background-image:
+		url("images/banner.png"),
+		url("images/dogtracksleft.png"),
+		url("images/dogtracksright.png"),
+		url("images/smallbow.png"),
+		url("images/smallbow.png"),
+		url("images/redbow.png"),
+		url("images/purplebow.png"),
+		url("images/background.png");
+	background-position:
+		center top,
+		0 20%,
+		100% 90%,
+		5% 7%,
+		95% 7%,
+		97% 50%,
+		3% 80%,
+		top left;
+
+	background-repeat:
+		no-repeat;
+
+	background-size:
+		80% 300px,
+		10%,
+		10%,
+		10%,
+		10%,
+		10%,
+		10%,
+		100%;
+
+	/*Background color*/
+	background-color:
+		#ffd900;
+}
+
+/*Navbar*/
+ul {
+	/*General*/
+	background-color:  #311432;
+	list-style-type: none;
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+
+	/*Border*/
+	border: 5px solid black;
+	border-radius: 5px;
+
+	/*Position*/
+	position: relative;
+	top: 290px;
+	left: 15%;
+	width: 70%;
+}
+
+/*Navbar elements*/
+li {
+	/*General*/
+	background-color: #ffd900;
+	margin: 0;
+
+	/*Border*/
+	border: 3px solid black;
+
+	/*Position*/
+	float: left;
+}
+
+/*Navbar element data*/
+li a {
+	/*General*/
+	display: block;
+	padding: 8px;
+
+	/*Text*/
+	color: black;
+	text-decoration: none;
+	font-family: "Times New Roman", Times, serif;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 1.5em;
+}
+
+/*Navbar highlighted element*/
+li a:hover:not(.active) {
+	/*General*/
+	background-color: #b0fc38;
+	padding: 5px;
+
+	/*Border*/
+	border: 3px solid black;
+}
+
+/*Navbar current element*/
+.active {
+	/*General*/
+	background-color: #b0fc38;
+	padding: 5px;
+
+	/*Border*/
+	border: 3px solid black;
+
+	/*Text*/
+	color: black;
+	text-decoration: none;
+	font-family: "Times New Roman", Times, serif;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 1.5em;
+ }
+
+/*Shop Menu*/
+div.gallerybody {
+	/*General*/
+	background-color:  #311432;
+	list-style-type: none;
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+
+	/*Position*/
+	position: relative;
+	top: 300px;
+	left: 15%;
+	width: 70%;
+
+	/*Border*/
+	border: 5px solid black;
+	border-radius: 5px;
+}
+
+/*Shop Menu element sizes and placing*/
+div.gallery {
+	/*General*/
+	float: left;
+	width: 100%;
+}
+
+/*Shop Menu element image sizes*/
+div.gallery img {
+	/*General*/
+	margin: 10%;
+	width: 80%;
+	height: auto;
+}
+
+/*Shop Menu descriptions*/
+div.desc {
+	/*Text*/
+	color: white;
+	text-align: center;
+	font-family: "Times New Roman", Times, serif;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 1.5em;
+}
+
+/*Shop Menu element images and bow choices*/
+div.descbackgroundblue01 {
+	/*General*/
+	background-color: #311432;
+	float: left;
+
+	/*Position*/
+	width: 25%;
+
+	/*Background*/
+  	background-image: url("images/bluebackground01.png");
+	background-size: 100% 100%;
+}
+
+div.descbackgroundred01 {
+	/*General*/
+	background-color: #311432;
+	float: left;
+
+	/*Position*/
+	width: 25%;
+
+	/*Background*/
+  	background-image: url("images/redbackground01.png");
+	background-size: 100% 100%;
+}
+
+div.descbackgroundgreen01 {
+	/*General*/
+	background-color: #311432;
+	float: left;
+
+	/*Position*/
+	width: 25%;
+
+	/*Background*/
+  	background-image: url("images/greenbackground01.png");
+	background-size: 100% 100%;
+}
+
+div.descbackgroundpurple01 {
+	/*General*/
+	background-color: #311432;
+	float: left;
+
+	/*Position*/
+	width: 25%;
+
+	/*Background*/
+  	background-image: url("images/purplebackground01.png");
+	background-size: 100% 100%;
+}
+
+div.descbackgroundyellow01 {
+	/*General*/
+	background-color: #311432;
+	float: left;
+
+	/*Position*/
+	width: 25%;
+
+	/*Background*/
+  	background-image: url("images/yellowbackground01.png");
+	background-size: 100% 100%;
+}
+
+div.descbackgroundblue02 {
+	/*General*/
+	background-color: #311432;
+	float: left;
+
+	/*Position*/
+	width: 25%;
+
+	/*Background*/
+  	background-image: url("images/bluebackground02.png");
+	background-size: 100% 100%;
+}
+
+div.descbackgroundred02 {
+	/*General*/
+	background-color: #311432;
+	float: left;
+
+	/*Position*/
+	width: 25%;
+
+	/*Background*/
+  	background-image: url("images/redbackground02.png");
+	background-size: 100% 100%;
+}
+
+div.descbackgroundgreen02 {
+	/*General*/
+	background-color: #311432;
+	float: left;
+
+	/*Position*/
+	width: 25%;
+
+	/*Background*/
+  	background-image: url("images/greenbackground02.png");
+	background-size: 100% 100%;
+}
+
+div.descbackgroundpurple02 {
+	/*General*/
+	background-color: #311432;
+	float: left;
+
+	/*Position*/
+	width: 25%;
+
+	/*Background*/
+  	background-image: url("images/purplebackground02.png");
+	background-size: 100% 100%;
+}
+
+div.descbackgroundyellow02 {
+	/*General*/
+	background-color: #311432;
+	float: left;
+
+	/*Position*/
+	width: 25%;
+
+	/*Background*/
+  	background-image: url("images/yellowbackground02.png");
+	background-size: 100% 100%;
+}
+
+/*Shop Menu element highlighted images and bow choices*/
+div.descbackgroundblue01:hover:not(.active) {
+	/*General*/
+	background-color: #b0fc38;
+}
+
+div.descbackgroundred01:hover:not(.active) {
+	/*General*/
+	background-color: #b0fc38;
+}
+
+div.descbackgroundgreen01:hover:not(.active) {
+	/*General*/
+	background-color: #b0fc38;
+}
+
+div.descbackgroundpurple01:hover:not(.active) {
+	/*General*/
+	background-color: #b0fc38;
+}
+
+div.descbackgroundyellow01:hover:not(.active) {
+	/*General*/
+	background-color: #b0fc38;
+}
+
+div.descbackgroundblue02:hover:not(.active) {
+	/*General*/
+	background-color: #b0fc38;
+}
+
+div.descbackgroundred02:hover:not(.active) {
+	/*General*/
+	background-color: #b0fc38;
+}
+
+div.descbackgroundgreen02:hover:not(.active) {
+	/*General*/
+	background-color: #b0fc38;
+}
+
+div.descbackgroundpurple02:hover:not(.active) {
+	/*General*/
+	background-color: #b0fc38;
+}
+
+div.descbackgroundyellow02:hover:not(.active) {
+	/*General*/
+	background-color: #b0fc38;
+}
+
+/*Shop Menu element sizes and placing*/
+div.shophead {
+	/*General*/
+	background-color: #ffd900;
+	margin: 0;
+	overflow: hidden;
+	padding: 10px;
+
+	/*Position*/
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 100%;
+
+	/*Border*/
+	border-top: 5px solid black;
+	border-bottom: 5px solid black;
+
+	/*Text*/
+	color: black;
+	text-align: center;
+	text-decoration: none;
+	font-family: "Times New Roman", Times, serif;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 1.5em;
+}
+
+div.foot {
+	/*General*/
+	background-color: #ffd900;
+	margin: 0;
+	overflow: hidden;
+	padding: 10%;
+
+	/*Position*/
+	position: relative;
+	top: 30%;
+	left: 0%;
+	width: 100%;
+
+	/*Border*/
+	border-top: 5px solid black;
+
+	/*Background*/
+	background-image: url("images/banner.png");
+	background-position: 80% 80%;
+	background-size: 40%;
+	background-repeat: no-repeat;
+}

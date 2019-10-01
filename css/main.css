@@ -1,14 +1,14 @@
 body {
 	/*Background*/
   	background-image:
-		url("images/banner.png"),
-		url("images/dogtracksleft.png"),
-		url("images/dogtracksright.png"),
-		url("images/smallbow.png"),
-		url("images/smallbow.png"),
-		url("images/redbow.png"),
-		url("images/purplebow.png"),
-		url("images/background.png");
+		url("../images/banner.png"),
+		url("../images/dogtracksleft.png"),
+		url("../images/dogtracksright.png"),
+		url("../images/smallbow.png"),
+		url("../images/smallbow.png"),
+		url("../images/redbow.png"),
+		url("../images/purplebow.png"),
+		url("../images/background.png");
 	background-position:
 		center top,
 		0 20%,
@@ -55,6 +55,29 @@ ul {
 	top: 290px;
 	left: 15%;
 	width: 70%;
+}
+
+/*Navbar welcome text*/
+li.navdesc {
+	/*General*/
+	background-color: #311432;
+	margin-left: 25%;
+	padding: 10px;
+
+	/*Border*/
+	border: 0px;
+
+	/*Position*/
+	position: relative;
+	width: 25%;
+
+	/*Text*/
+	color: white;
+	text-align: center;
+	font-family: "Times New Roman", Times, serif;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 1.5em;
 }
 
 /*Navbar elements*/
@@ -128,9 +151,10 @@ div.gallerybody {
 	left: 15%;
 	width: 70%;
 
+	
 	/*Border*/
-	border: 5px solid black;
-	border-radius: 5px;
+	border-left: 5px solid black;
+	border-right: 5px solid black;
 }
 
 /*Shop Menu element sizes and placing*/
@@ -169,7 +193,7 @@ div.descbackgroundblue01 {
 	width: 25%;
 
 	/*Background*/
-  	background-image: url("images/bluebackground01.png");
+  	background-image: url("../images/bluebackground01.png");
 	background-size: 100% 100%;
 }
 
@@ -182,7 +206,7 @@ div.descbackgroundred01 {
 	width: 25%;
 
 	/*Background*/
-  	background-image: url("images/redbackground01.png");
+  	background-image: url("../images/redbackground01.png");
 	background-size: 100% 100%;
 }
 
@@ -195,7 +219,7 @@ div.descbackgroundgreen01 {
 	width: 25%;
 
 	/*Background*/
-  	background-image: url("images/greenbackground01.png");
+  	background-image: url("../images/greenbackground01.png");
 	background-size: 100% 100%;
 }
 
@@ -208,7 +232,7 @@ div.descbackgroundpurple01 {
 	width: 25%;
 
 	/*Background*/
-  	background-image: url("images/purplebackground01.png");
+  	background-image: url("../images/purplebackground01.png");
 	background-size: 100% 100%;
 }
 
@@ -221,7 +245,7 @@ div.descbackgroundyellow01 {
 	width: 25%;
 
 	/*Background*/
-  	background-image: url("images/yellowbackground01.png");
+  	background-image: url("../images/yellowbackground01.png");
 	background-size: 100% 100%;
 }
 
@@ -234,7 +258,7 @@ div.descbackgroundblue02 {
 	width: 25%;
 
 	/*Background*/
-  	background-image: url("images/bluebackground02.png");
+  	background-image: url("../images/bluebackground02.png");
 	background-size: 100% 100%;
 }
 
@@ -247,7 +271,7 @@ div.descbackgroundred02 {
 	width: 25%;
 
 	/*Background*/
-  	background-image: url("images/redbackground02.png");
+  	background-image: url("../images/redbackground02.png");
 	background-size: 100% 100%;
 }
 
@@ -260,7 +284,7 @@ div.descbackgroundgreen02 {
 	width: 25%;
 
 	/*Background*/
-  	background-image: url("images/greenbackground02.png");
+  	background-image: url("../images/greenbackground02.png");
 	background-size: 100% 100%;
 }
 
@@ -273,7 +297,7 @@ div.descbackgroundpurple02 {
 	width: 25%;
 
 	/*Background*/
-  	background-image: url("images/purplebackground02.png");
+  	background-image: url("../images/purplebackground02.png");
 	background-size: 100% 100%;
 }
 
@@ -286,7 +310,7 @@ div.descbackgroundyellow02 {
 	width: 25%;
 
 	/*Background*/
-  	background-image: url("images/yellowbackground02.png");
+  	background-image: url("../images/yellowbackground02.png");
 	background-size: 100% 100%;
 }
 
@@ -369,6 +393,7 @@ div.shophead {
 	font-size: 1.5em;
 }
 
+/*website footer*/
 div.foot {
 	/*General*/
 	background-color: #ffd900;
@@ -386,8 +411,67 @@ div.foot {
 	border-top: 5px solid black;
 
 	/*Background*/
-	background-image: url("images/banner.png");
+	background-image: url("../images/banner.png");
 	background-position: 80% 80%;
 	background-size: 40%;
 	background-repeat: no-repeat;
+}
+
+/*Home page main data*/
+div.homebody {
+	/*General*/
+	background-color:  #311432;
+	list-style-type: none;
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+
+	/*Position*/
+	position: relative;
+	top: 300px;
+	left: 15%;
+	width: 70%;
+	height: auto;
+
+	/*Border*/
+	border: 5px solid black;
+}
+
+/*Home page text data*/
+div.homebodytext {
+	/*Text*/
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	font-family: "Times New Roman", Times, serif;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 1.5em;
+}
+
+
+/*Home page image data*/
+div.homebodyimage {
+	/*Position*/
+	position: relative;
+	left: 15%;
+	width:70%;
+	height:50%;
+
+	/*Border*/
+	border: 7px solid white;
+	border-radius: 7px;
+}
+
+/*shop image data*/
+div.shopimage {
+	/*Position*/
+	position: relative;
+	left: 31%;
+	width: 38%;
+	height: 50%;
+
+	/*Border*/
+	border: 7px solid black;
+	border-radius: 7px;
 }

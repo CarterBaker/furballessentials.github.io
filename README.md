@@ -1,10 +1,28 @@
-# 🎨 Legacy Personal Website — [Friend's Name] Portfolio
+## 🧩 Furball Essentials
 
-> _Originally built in 2019 • Archived and maintained as part of my web development portfolio_
+**Solo-developed systems architecture prototype** I made this website several years ago for a friend. I am deciding to
+leave it on my github to strengthen my portfolio by hopefully helping prove how long I have been developing things and
+by showing I have knowledge of HTML and CSS.
 
-## 📜 Overview
+---
 
-This is a personal portfolio website I designed and developed for a friend back in 2019. Despite its age, it still holds up as a clean, responsive showcase of early front-end development work.
-I've decided to preserve it here as a historical piece in my portfolio, highlighting my early understanding of HTML/CSS, responsive layouts, and lightweight UX design.
+## 🧠 Developer Notes
 
-While some aspects are dated, it reflects my design sensibilities and technical capabilities at the time — as well as a commitment to aesthetic coherence and functional delivery.
+  The website was developed for a friend using her input for styles and colors. The site featues an easy frmaework to
+  setup a shopping center and a homepage.
+
+---
+
+## 🛠 Development Info
+
+- **Language:** HTML, CSS
+
+---
+
+## 🧰 Setup Instructions
+
+1. Clone this repo:
+   ```bash
+   git clone https://github.com/CarterBaker/furballessentials.github.io
+
+2. Open with your browser.
